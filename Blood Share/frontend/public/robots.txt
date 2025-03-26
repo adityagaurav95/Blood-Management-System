@@ -1,0 +1,12 @@
+# https://www.robotstxt.org/robotstxt.html
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Disallow sensitive routes
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /donations
+Disallow: /appointments

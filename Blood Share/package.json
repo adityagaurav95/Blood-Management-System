@@ -1,0 +1,32 @@
+{
+  "name": "bloodshare",
+  "version": "1.0.0",
+  "description": "BloodShare - Blood Donation Management System",
+  "main": "index.js",
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
+    "axios": "^1.8.4",
+    "formik": "^2.4.6",
+    "react-router-dom": "^7.4.0",
+    "tailwindcss": "^4.0.14",
+    "yup": "^1.6.1",
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "blood",
+    "donation",
+    "management",
+    "mern",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT"
+}
